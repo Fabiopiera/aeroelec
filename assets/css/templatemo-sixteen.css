@@ -349,12 +349,22 @@ header .navbar {
 .banner .text-content1 {
   position: absolute;
   color: #ffffff;
-  top: 80%;
+  top: 90%;
   left: 20px;
   transform: translateY(-50%);
   text-align: left;
   width: 100%;
 }
+
+.banner.img-content1 {
+  /* Ajusta la posición según tus necesidades */
+  width: 100px; /* Cambia el tamaño si es necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Si quieres que sea un bloque separado */
+  margin: 20px auto; /* Centrar la imagen horizontalmente */
+  /* Añade más estilos según lo que desees */
+}
+
 .banner .text-content {
   position: absolute;
   top: 50%;
