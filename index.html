@@ -118,6 +118,114 @@ https://templatemo.com/tm-546-sixteen-clothing
     </div>
     <!-- Banner Ends Here -->
 
+        <!-- Productos -->
+        <div class="products">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-content">
+                  
+                  <h2>Videos</h2>
+                </div>
+                
+                
+              </div>
+              <div class="col-md-12">
+                <div class="filters-content">
+                  <div class="row grid">
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="assets/images/video1.mp4" type="video/mp4">
+                          Tu navegador no soporta la reproducción de video.
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="assets/images/video2.mp4" type="video/mp4">
+                          Tu navegador no soporta la reproducción de video.
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all gra">
+                      <div class="product-item">
+                        <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="assets/images/video3.mp4" type="video/mp4">
+                          Tu navegador no soporta la reproducción de video.
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all gra">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_04.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_04.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all dev">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_05.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_05.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_06.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_06.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_07.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_07.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_08.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_08.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <a
+                          href="assets/images/product_09.jpg"
+                          target="_blank"
+                          onclick="return openImageAndReturn(this.href);"
+                        >
+                          <img src="assets/images/product_09.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- Productos -->
+
     <footer>
       <div class="container">
         <div class="row">
@@ -172,6 +280,22 @@ https://templatemo.com/tm-546-sixteen-clothing
           t.value = ""; // with more chance of typos
           t.style.color = "#fff";
         }
+      }
+    </script>
+    <script>
+      //script que muestra la imagen y luego la cierra
+      function openImageAndReturn(url) {
+        // Abrir la imagen en una nueva ventana o pestaña
+        var newWindow = window.open(url, "_blank");
+
+        // Añadir un evento de clic en la imagen de la nueva ventana
+        newWindow.onload = function () {
+          newWindow.document.querySelector("img").onclick = function () {
+            newWindow.close(); // Cerrar la nueva ventana o pestaña
+          };
+        };
+
+        return false; // Prevenir el comportamiento por defecto del enlace
       }
     </script>
   </body>
