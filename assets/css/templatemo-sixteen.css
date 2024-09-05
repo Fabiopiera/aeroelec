@@ -346,6 +346,15 @@ header .navbar {
   max-height: 600px;
 }
 
+.banner .text-content1 {
+  position: absolute;
+  color: #ffffff;
+  top: 70%;
+  left: 20px;
+  transform: translateY(-50%);
+  text-align: left;
+  width: 100%;
+}
 .banner .text-content {
   position: absolute;
   top: 50%;
@@ -417,12 +426,13 @@ header .navbar {
 }
 
 .product-item {
-  border: 1px solid #ffffff;
+  border: 1px solid #8a8686;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .product-item .down-content {
-  padding: 30px;
+  padding: 10px;
   position: relative;
 }
 
@@ -462,7 +472,7 @@ header .navbar {
 .product-item .down-content span {
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  bottom: 10px;
   font-size: 13px;
   color: #f33f3f;
   font-weight: 500;
