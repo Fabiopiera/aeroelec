@@ -800,10 +800,15 @@ footer .inner-content p a {
 .happy-clients {
   margin-top: 100px;
   margin-bottom: 40px;
+  background-color: #f7f6f6;
+  border-radius: 8px;
 }
 
 .happy-clients .client-item img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s;
   cursor: pointer;
@@ -941,6 +946,13 @@ footer .inner-content p a {
 
 .social-icons a:hover {
   color: #27aee8; /* Color al pasar el cursor por encima */
+}
+
+.logo-imgcliente {
+  width: 120px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  margin-left: 20px; /* Espacio entre el texto y la imagen */
+  vertical-align: middle; /* Alinea la imagen con el texto */
 }
 
 /*---------------------------- iconos de redes sociales-------------------- */
