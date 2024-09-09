@@ -800,7 +800,7 @@ footer .inner-content p a {
 .happy-clients {
   margin-top: 100px;
   margin-bottom: 40px;
-  background-color: #2a2929;
+  background-color: #eeebeb;
   border-radius: 8px;
 }
 
@@ -983,7 +983,6 @@ footer .inner-content p a {
   box-shadow: 4px 4px 6px #999;
 }
 
-
 /* Responsive Style */
 @media (max-width: 768px) {
   .banner .text-content {
@@ -1114,5 +1113,4 @@ footer .inner-content p a {
     right: 0;
     bottom: 0;
   }
-
-
+}
