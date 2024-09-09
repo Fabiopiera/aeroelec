@@ -64,9 +64,9 @@
 
 .owl-carousel .owl-item img {
   display: block;
-  width: 30%;
-  margin-left: 60%;
-  margin-bottom: 30%;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 40%;
 }
 
 .owl-carousel .owl-nav.disabled,
