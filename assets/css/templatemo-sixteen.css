@@ -439,6 +439,12 @@ header .navbar {
   border: 1px solid #8a8686;
   margin-bottom: 30px;
   border-radius: 10px;
+  background: #050505;
+}
+
+.product-item :hover {
+  opacity: 0.8;
+  transition: 0.8s;
 }
 
 .product-item .down-content {
@@ -965,7 +971,7 @@ footer .inner-content p a {
   right: 40px;
   background-color: #25d366;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 10px;
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
