@@ -106,7 +106,7 @@ a.filled-button:hover {
 }
 
 .page-heading {
-  padding: 210px 0px 130px 0px;
+  padding: 110px 0px 130px 0px;
   text-align: center;
   background-position: center center;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h2 {
-  color: #fff;
+  color: #f3f3f3;
   font-size: 62px;
   text-transform: uppercase;
   letter-spacing: 5px;
